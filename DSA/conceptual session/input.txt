@@ -1,13 +1,8 @@
-6
-6
-RGGRRG
-6
-RGRGRG
-4
-RGGR
-5
-RGGGR
-4
-RGGB
-18
-RBRBRBGRBRRGBGGBGB
+7
+1 jessi 20
+1 jess 12
+1 jess 18
+3 jess
+3 jessi
+2 jess
+3 jess
