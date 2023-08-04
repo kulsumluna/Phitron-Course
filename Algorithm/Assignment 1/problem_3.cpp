@@ -55,11 +55,11 @@ int main()
     int up=upper(v,x);
     if(v[low]==v[up]&& low!=up)
     {
-        cout<<"YES";
+        cout<<"YES"<<endl;
     }
     else
     {
-        cout<<"NO";
+        cout<<"NO"<<endl;
     }
 
     return 0;
