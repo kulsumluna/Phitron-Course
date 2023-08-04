@@ -1,27 +1,66 @@
 #include<bits/stdc++.h>
 
 using namespace std;
+int lower(vector<int>&v,int x)
+{
+    int left=0,right=v.size()-1,result;
+    while(left<=right)
+    {
+        int mid=(left+right)/2;
+        if(v[mid]>=x)
+              {
+             result=mid;
+             right=mid-1;
+            }
+            else
+            {
+                left=mid+1;
+            }
+    }
+    return result;
+}
+int upper(vector<int>&v,int x)
+{
+
+    int left=0,right=v.size()-1,result;
+    while(left<=right)
+    {
+        int mid=(left+right)/2;
+        if(v[mid]>x)
+              {
+             result=mid;
+             right=mid-1;
+            }
+            else
+            {
+                left=mid+1;
+            }
+    }
+    return result-1;
+}
 int main()
 {
     int n;
     cin>>n;
-    int arr[n];
-    for(int i=0;i<n;i++)
+    vector<int> v;
+    while(n--)
     {
-        cin>>arr[i];
+        int a;
+        cin>>a;
+        v.push_back(a);
     }
     int x;
     cin>>x;
-    int flag=0;
-    for(int i=0;i<n;i++)
+    int low=lower(v,x);
+    int up=upper(v,x);
+    if(v[low]==v[up]&& low!=up)
     {
-        if(arr[i]==x && arr[i+1]==x)
-        {
-            flag=1;
-            break;
-        }
+        cout<<"YES";
     }
-    if(flag==1) cout<<"Yes";
-    else cout<<"No";
+    else
+    {
+        cout<<"NO";
+    }
+
     return 0;
 }

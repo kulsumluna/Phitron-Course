@@ -1,0 +1,7 @@
+Before Sorting:
+10 40 30 20 50 
+
+Calling Merge Sort...
+
+After Sorting:
+10 20 30 40 50 
