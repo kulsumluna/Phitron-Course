@@ -44,8 +44,7 @@ int main()
         adjlist[v].push_back(u);
     }
     int cc=0;
-   
-    for(int i=1;i<=n;i++)
+for(int i=1;i<=n;i++)
     {
        if(visited[i]) continue;
        bfs(i);

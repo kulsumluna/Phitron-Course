@@ -44,9 +44,9 @@ int main()
         adjlist[v].push_back(u);
     }
     bfs(1);
-    for(int i=1;i<=n;i++)
-    {
-        cout<<"Level of Nodes "<< i<<" : "<<level[i]<<endl;
-    }
+    // for(int i=1;i<=n;i++)
+    // {
+    //     cout<<"Level of Nodes "<< i<<" : "<<level[i]<<endl;
+    // }
     return 0;
 }
