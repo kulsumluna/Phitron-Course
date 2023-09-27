@@ -1,0 +1,11 @@
+# print("Now i need some money")
+# input()
+# money= input("give me some money: ")
+# print("your money is : ", money)
+f_m= input("mrs give me some money : ")
+s_m= input("mr give me some money : ")
+print(f_m,s_m)
+f_m_int=int(f_m)
+s_m_int=int(s_m)
+total= f_m_int+s_m_int
+print(total)

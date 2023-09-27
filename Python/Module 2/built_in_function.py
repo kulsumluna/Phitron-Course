@@ -1,0 +1,7 @@
+highest=max(10,30,60,97,90,100)
+print(highest)
+lowest=min(10,30,60,97,90,100)
+total=sum([10,30,60,97,90,100])
+print(lowest)
+number=len([44,732,435])
+print(number,total)
