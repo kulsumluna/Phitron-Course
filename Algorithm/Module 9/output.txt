@@ -1,0 +1,7 @@
+Distance of Nodes 1 : 0
+Distance of Nodes 2 : 3
+Distance of Nodes 3 : 5
+Distance of Nodes 4 : 6
+Distance of Nodes 5 : 7
+Distance of Nodes 6 : 8
+Distance of Nodes 7 : 6

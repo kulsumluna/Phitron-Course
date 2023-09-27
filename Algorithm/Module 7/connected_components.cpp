@@ -50,6 +50,6 @@ for(int i=1;i<=n;i++)
        bfs(i);
        cc++;
     }
-    cout<<"Number of connected components : "<<cc<<endl;
+    cout<<cc<<" ";
     return 0;
 }
